@@ -12,8 +12,8 @@ export default function Card_service({ descripcion, imagen, titulo }: CardServic
     return (
         <div className="w-full min-h-[300px] md:w-[30%] mb-6 bg-white dark:bg-zinc-900 p-6 rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] hover:shadow-[0px_8px_16px_rgba(0,0,0,0.2)] transition duration-300">
             <div className="w-[90%] mx-auto my-auto h-full flex flex-col justify-center">
-                <div className="relative w-full rounded-xl overflow-hidden">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden bg-black mx-auto flex mb-6">
+                <div className="relative w-full rounded-xl overflow-hidden  ">
+                    <div className="relative w-16 h-16 rounded-full overflow-hidden bg-black mx-auto flex mb-6 shadow-md   shadow-gray-200">
                         <Image
                             src={imagen}
                             alt={titulo}
