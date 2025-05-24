@@ -68,7 +68,7 @@ export function Card_desktop({ data }: CardServiceProps) {
 }
 
 export function Card_desktop_2({ data }: CardServiceProps) {
-  const { descripcion, name, image_app, link, github, tecnologias, image_one } = data;
+  const { descripcion, name,   link,     image_one } = data;
   return (
     <div className="w-full min-h-[300px]  hover:border-blue-500 hover:border-2  cursor-pointer bg-blue-300 dark:bg-zinc-900 p-6 rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] hover:shadow-[0px_8px_16px_rgba(0,0,0,0.2)] transition duration-300 flex items-center">
 
