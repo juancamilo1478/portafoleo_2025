@@ -12,7 +12,8 @@ import { Swiper, SwiperSlide } from 'swiper/react'; // ✅ Correcto
 import 'swiper/css';
 
 import { useTranslations } from "next-intl";
- 
+
+
 
 function chunkArray(array: AppData[], size: number): AppData[][] {
   const result: AppData[][] = [];
