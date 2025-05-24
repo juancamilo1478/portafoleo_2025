@@ -12,14 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'; // ✅ Correcto
 import 'swiper/css';
 
 import { useTranslations } from "next-intl";
-
-type PageProps = {
-  params: {
-    locale: string;
-  };
-  searchParams?: { [key: string]: string | string[] | undefined };
-};
-
+ 
 
 function chunkArray(array: AppData[], size: number): AppData[][] {
   const result: AppData[][] = [];
@@ -31,7 +24,7 @@ function chunkArray(array: AppData[], size: number): AppData[][] {
 }
 
  
-export default function Home({ params }: PageProps) {
+export default function Home() {
 
   const t = useTranslations('HomePage');
 
