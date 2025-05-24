@@ -36,7 +36,7 @@ export default function Home({ params }: Props) {
 
   const [selectedProject, setSelectedProject] = useState<AppData | null>(null);
   const groupedApps = chunkArray(myApps, 3);
-  const [selectIndex, setSelectIndex] = useState(0); // Estado para controlar el índice del grupo
+  const [selectIndex] = useState(0); // Estado para controlar el índice del grupo
   return (
     <div className="w-screen bg-black" >
       <Navbar />

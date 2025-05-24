@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from "react";
+ 
 import Image from "next/image";
 import Logo from "@public/images/LogoJuan.png"
 import Link from "next/link";
@@ -7,7 +7,7 @@ import { useLocale } from "next-intl";
  
 const Navbar = () => {
 
-    const [open, setOpen] = useState(false);
+  
     const locale = useLocale();
     return (
         <header className="bg-gray-900   font-nunito-semi-bold shadow-md shadow-gray-200">
