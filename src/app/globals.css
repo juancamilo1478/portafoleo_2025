@@ -27,3 +27,16 @@ body {
   color: var(--foreground);
   font-family: 'font-nunito-regular', sans-serif;
 }
+
+.float {
+  animation: float-scale 5s ease-in-out infinite;
+}
+
+@keyframes float-scale {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-1px) scale(1.005); /* sube y agranda 5% */
+  }
+}

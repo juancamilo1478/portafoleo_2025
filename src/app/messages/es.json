@@ -1,0 +1,6 @@
+{
+  "HomePage": {
+    "title": "Bienvenido a mi Portafolio",
+    "about": "¡Hola! Soy Juan Camilo Saiz, un desarrollador Full Stack apasionado por crear aplicaciones web y móviles escalables con TypeScript. Mi stack incluye Next.js y Vue para interfaces dinámicas, y NestJS para backends robustos basados en microservicios. Especializado en patrones de diseño SOLID, construyo soluciones limpias y eficientes."
+  }
+}
