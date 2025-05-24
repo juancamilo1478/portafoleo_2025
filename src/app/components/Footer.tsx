@@ -4,7 +4,7 @@ import Logo from "@public/images/LogoJuan.png"
 export function Footer() {
 
     return (
-        <footer className="bg-black  ">
+        <div className='w-screen'>
             <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
 
                 <a href="#">
@@ -20,10 +20,10 @@ export function Footer() {
                 {/* <p className="text-sm text-gray-600 dark:text-gray-300">© Copyright 2021. All Rights Reserved.</p> */}
 
                 <div className="flex -mx-2">
- 
- 
 
-                    <a href="https://github.com/juancamilo1478" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+
+
+                    <a href="https://github.com/juancamilo1478" className="mx-2 text-gray-600 transition-colors duration-300   hover:text-blue-500  " aria-label="Github">
                         <svg className="w-8 h-auto fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -31,13 +31,13 @@ export function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="LinkedIn">
+                    <a href="#" className="mx-2 text-gray-600 transition-colors duration-300   hover:text-blue-500  " aria-label="LinkedIn">
                         <svg className="w-8 h-auto fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.983 3.5C4.983 4.604 4.104 5.5 3 5.5C1.896 5.5 1 4.604 1 3.5C1 2.396 1.896 1.5 3 1.5C4.104 1.5 4.983 2.396 4.983 3.5ZM1.5 22H4.5V7.999H1.5V22ZM8.5 8H11.2V9.587H11.245C11.643 8.867 12.526 8.1 13.947 8.1C17.095 8.1 17.5 10.196 17.5 13.006V22H14.5V13.872C14.5 12.354 14.469 10.448 12.5 10.448C10.5 10.448 10.2 11.953 10.2 13.767V22H7.2V8H8.5Z" />
                         </svg>
                     </a>
                 </div>
             </div>
-        </footer>
+        </div>
     )
 }

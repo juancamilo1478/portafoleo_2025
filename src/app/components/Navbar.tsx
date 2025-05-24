@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="mx-auto container px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
-                        <a className="block text-teal-600 dark:text-teal-600" href="#">
+                        <a className="block text-teal-600  " href="#">
                             <div className="flex justify-center items-center">
                                 <Image
                                     src={Logo}
@@ -53,7 +53,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75    "
                                         href="#"
                                     >
                                         About
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75    "
                                         href="#"
                                     >
                                         Careers
@@ -71,7 +71,7 @@ const Navbar = () => {
 
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75  "
                                         href="#"
                                     >
                                         History
@@ -80,7 +80,7 @@ const Navbar = () => {
 
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75  "
                                         href="#"
                                     >
                                         Services
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75  "
                                         href="#"
                                     >
                                         Projects
@@ -98,7 +98,7 @@ const Navbar = () => {
 
                                 <li>
                                     <a
-                                        className="text-gray-300 transition hover:text-gray-300/75 dark:text-white dark:hover:text-white/75"
+                                        className="text-gray-300 transition hover:text-gray-300/75  "
                                         href="#"
                                     >
                                         Blog
