@@ -155,7 +155,7 @@ export default function Home() {
           <h2 className="text-4xl font-nunito-extra-bold w-full   text-gray-100 mb-10 pt-10">Proyectos.</h2>
         </div>
 
-        <div className="container mx-auto ">
+        <div className="container mx-auto pb-10 ">
           {groupedApps[selectIndex]?.length === 3 && (
             <div className="md:flex gap-4 mb-10">
               {/* Primer elemento: ocupa todo el lado izquierdo */}
