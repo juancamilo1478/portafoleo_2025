@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { AppData } from "../datas";
-import { Swiper, SwiperSlide } from 'swiper/react'; // ✅ Correcto
+
 import 'swiper/css';
  
 type CardServiceProps = {
@@ -35,7 +35,7 @@ export function Card_movile_1({ data }: CardServiceProps) {
 }
 
 export function Card_desktop({ data }: CardServiceProps) {
-  const { descripcion, name, image_app, link, github, tecnologias, image_one } = data;
+  const { descripcion, name,   link,     image_one } = data;
   return (
     <div className="w-full min-h-[300px] cursor-pointer  bg-white dark:bg-zinc-900  hover:border-blue-500 hover:border-2 p-6 rounded-2xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] hover:shadow-[0px_8px_16px_rgba(0,0,0,0.2)] transition duration-300 flex items-center mb-5 md:mb-0 ">
       {/* Contenido de texto */}

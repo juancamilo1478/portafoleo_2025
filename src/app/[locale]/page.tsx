@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-between mx-10 md:mx-0 pb-20">
             {servicios.map((item, index) => (
               <Card_service
-
+              
                 key={index}
                 titulo={item.titulo}
                 descripcion={item.descripcion}
@@ -121,7 +121,7 @@ export default function Home() {
               modules={[Autoplay]}
             >
               {selectedProject.image_app.map((src, index) => (
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <div className="  p-10 rounded-xl">
                     <Image
                       src={src}
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="flex flex-col flex-1 gap-4 w-full">
                 {groupedApps[selectIndex].slice(1).map((app, appIndex) => (
                   app.type === "mobile" ? (
-                    <Card_movile_1 key={appIndex} data={app} />
+                    <Card_movile_1 key={appIndex} data={app}  />
                   ) : app.type === "desktop" ? (
                     <Card_desktop_2 key={appIndex} data={app} />
                   ) : null
