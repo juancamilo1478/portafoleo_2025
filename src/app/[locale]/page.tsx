@@ -13,7 +13,12 @@ import 'swiper/css';
 
 import { useTranslations } from "next-intl";
 
-
+type PageProps = {
+  params: {
+    locale: string;
+  };
+  searchParams?: { [key: string]: string | string[] | undefined };
+};
 
 
 function chunkArray(array: AppData[], size: number): AppData[][] {
@@ -25,18 +30,14 @@ function chunkArray(array: AppData[], size: number): AppData[][] {
   return result;
 }
 
-type Props = {
-  params: {
-    locale: string;
-  };
-};
-export default function Home({ params }: Props) {
+ 
+export default function Home({ params }: PageProps) {
 
   const t = useTranslations('HomePage');
 
   const [selectedProject, setSelectedProject] = useState<AppData | null>(null);
   const groupedApps = chunkArray(myApps, 3);
-  const [selectIndex] = useState(0); // Estado para controlar el índice del grupo
+  const [selectIndex] = useState(0);  
   return (
     <div className="w-screen bg-black" >
       <Navbar />
