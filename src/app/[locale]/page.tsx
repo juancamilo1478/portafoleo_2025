@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-between mx-10 md:mx-0 pb-20">
             {servicios.map((item, index) => (
               <Card_service
-              
+
                 key={index}
                 titulo={item.titulo}
                 descripcion={item.descripcion}
@@ -150,7 +150,7 @@ export default function Home() {
         </div>
       )}
 
-      <div className="w-screen lg:h-200 bg-gray-800">
+      <div className="w-screen   bg-gray-800">
         <div className="container mx-auto">
           <h2 className="text-4xl font-nunito-extra-bold w-full   text-gray-100 mb-10 pt-10">Proyectos.</h2>
         </div>

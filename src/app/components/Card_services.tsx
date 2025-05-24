@@ -23,7 +23,7 @@ export default function Card_service({ descripcion, imagen, titulo }: CardServic
                             alt={titulo}
                             width={40}
                             height={40}
-                            className="object-contain invert  "
+                            className="object-contain invert   m-auto"
                         />
                     </div>
                 </div>
